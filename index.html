@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Hiring Tool!</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/hire.css">
+    </head>
+  <body>
+
+    <div class="header">
+      <h1>Should you Hire Christine?</h1>
+    </div>
+
+    <div class="col-3 col-s-9">
+      <img src="images/headshot.JPG" alt="headshot"> <!-- style="height:200px; width:200px;" -->
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-s-3 menu">
+            <div class="buttons">
+                <button id="buttonOne" onclick="functionOne()">Start!</button>
+            </div>
+            <br>
+
+      <div id="questionOne" class="questions">
+        Are you hiring a junior developer?
+        <div class="buttons">
+          <br>
+          <button id="yesOne" onclick="functionTwo()">Yes</button>
+          <button id="noOne" onclick="sorry()">No</button>
+        </div>
+      </div>
+      <br>
+      <div id="questionTwo" class="questions">
+        Does your preferred candidate have proven experience in HTML, CSS, and JavaScript?
+        <div class="buttons">
+          <br>
+          <button id="yesTwo" onclick="functionThree()">Yes</button>
+          <button id="noTwo" onclick="sorry()">No</button>
+        </div>
+      </div>
+      <br>
+      <div id="questionThree" class="questions">
+        Is your ideal candidate hardworking, driven, and reliable?
+        <div class="buttons">
+          <br>
+          <button id="yesThree" onclick="functionFour()">Absolutely!</button>
+          <button id="noThree" onclick="sorry()">Take it or Leave it</button>
+        </div>
+      </div>
+      <br>
+      <div id="questionFour" class="questions">
+        Do you prefer a candidate who will bring a lively personality to the team as well as technical skills?
+        <div class="buttons">
+          <br>
+          <button id="yesFour" onclick="functionFive()">For Sure</button>
+          <button id="noFour" onclick="sorry()">Nah.</button>
+        </div>	
+      </div>
+      <br>
+      <div id="questionFive" class="questions">
+        Have you interviewed Christine yet?
+        <div class="buttons">
+          <br>
+          <button id="yesFive" onclick="functionSix()">Yes!</button>
+          <button id="noFive" onclick="whyNot()">Not yet!</button>
+        </div>	
+      </div>
+      <br>
+      <div id="questionSix" class="questions">
+        How'd it go?
+        <div class="buttons">
+          <br>
+          <button id="yesFive" onclick="functionSeven()">She nailed it!</button>
+          <button id="noFive" onclick="functionSeven()">At first, I wasn't sure about her, but this clever and cheesy app won me over!</button>
+        </div>	
+      </div>
+      <br>
+      <div id="questionSeven" class="questions">
+        Will you move her on to the next stage of interviews or make an offer?
+        <div class="buttons">
+          <br>
+          <button id="yesFive" onclick="functionEight()">Offer made.</button>
+          <button id="noFive" onclick="functionEight()">She's moving on to the next step!</button>
+        </div>
+      </div>
+      <br>
+      <div id="questionEight" class="questions">
+          <p>Congratulations, you are so wise!</p>
+      </div>
+
+      <br>
+      <div id="sorryAll" class="questions">
+        <p>Looks like we're not a good match! Womp womp :(</p>
+      </div>
+      <div id="sorryTwo" class="questions">
+          <p></p>
+        </div>
+      <br>
+      <div id="whyNot" class="questions">
+        What are you waiting for!? 
+        <br>
+        <a href = "mailto: christinemhorvath@gmail.com">Schedule via e-mail now!</a>
+        <a href="tel:1-330-518-5282">Call/Text: 330-518-5282</a> 
+      </div>
+      <br>
+      </div>
+
+      <div class="col-3 col-s-12">
+        <div class="aside">
+          <h2>Strengths</h2>
+          <p>Diligent and hard-working programmer who is obsessed with writing beautiful, clean code.</p>
+          <h2>Languages</h2>
+          <p>Full-stack trained, very proficient in HTML, CSS, and JavaScript.</p>
+          <h2>Fun Fact</h2>
+          <p>In my free time, I perform stand-up comedy and storytelling.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>christinemhorvath@gmail.com | &copy; Christine Horvath 2019</p>
+    </div>
+
+    <script>src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"</script>
+    <script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/hire.js"></script>
+
+</body>
+</html>
+
+
+
